@@ -1,0 +1,74 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.landing-page {
+    text-align: center;
+}
+
+.flowers {
+    width: 200px;
+    cursor: pointer;
+}
+
+.puzzle-page {
+    text-align: center;
+}
+
+.letter {
+    display: inline-block;
+    font-size: 2em;
+    margin: 0.5em;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+.poem {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px; /* Add padding for better spacing on mobile */
+}
+
+.poem h1 {
+    font-size: 2.5em;
+    color: #ff69b4; /* A color representing love */
+}
+
+.poem p {
+    font-size: 1.5em;
+    line-height: 1.6;
+    color: #333; /* Dark grey color for the text */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .poem h1 {
+        font-size: 2em; /* Reduce heading size on tablets */
+    }
+
+    .poem p {
+        font-size: 1.2em; /* Reduce paragraph size on tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .poem h1 {
+        font-size: 1.5em; /* Further reduce heading size on phones */
+    }
+
+    .poem p {
+        font-size: 1em; /* Further reduce paragraph size on phones */
+    }
+}
